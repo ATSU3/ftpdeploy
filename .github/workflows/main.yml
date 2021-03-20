@@ -16,4 +16,4 @@ jobs:
           FTP_USERNAME: ${{ secrets.FTP_USERNAME }} 
           FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }} 
           LOCAL_DIR: ./                           
-          REMOTE_DIR: https://minimalismisbeautiful.000webhostapp.com/public_html/wp-content/themes/
+          REMOTE_DIR: ${{ secrets.FTP_REMOTE_DIR }}
